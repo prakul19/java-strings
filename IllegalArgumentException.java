@@ -26,9 +26,9 @@ public class IllegalArgumentException {
     public static void handleException(String text) {
         try {
             System.out.println(text.substring(5, 2));
-        } catch (java.lang.IllegalArgumentException e) { // Use fully qualified name for IllegalArgumentException
+        } catch (java.lang.IllegalArgumentException e) { 
             System.out.println("Caught IllegalArgumentException: " + e.toString());
-        } catch (java.lang.RuntimeException e) { // Use fully qualified name for RuntimeException
+        } catch (java.lang.RuntimeException e) { 
             System.out.println("Caught RuntimeException: " + e.toString());
         }
     }
